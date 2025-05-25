@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MovieVerse - Movie Discovery Platform
 
-## Getting Started
+MovieVerse is a modern movie discovery platform built with Next.js, offering users an immersive way to explore trending films, upcoming releases, and detailed movie information. With enhanced performance, SEO optimization, and a sleek UI, MovieVerse delivers a seamless experience for cinephiles.
 
-First, run the development server:
+# 🎬 Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✔ User Authentication – Secure login & registration
+✔ Trending Movies – Discover popular films this week
+✔ Coming Soon – Preview upcoming releases
+✔ Detailed Movie Info – Cast, ratings, trailers, and more
+✔ Advanced Search – Find movies by title, genre, or keyword
+✔ Responsive Design – Works flawlessly on all devices
+✔ Protected Routes – Private access for authenticated users
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🚀 Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Next.js 14 – React framework with SSR & optimized performance
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tailwind CSS – Modern, utility-first styling
 
-## Learn More
+TMDB API – Real-time movie data
 
-To learn more about Next.js, take a look at the following resources:
+# 📋 Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Node.js (v18+)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm / yarn / pnpm
 
-## Deploy on Vercel
+# 🛠️ Setup & Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/mahmoud1mandour/MovieVerse2.git
+   cd movieverse
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+## Application Structure
+
+- Home Page : Features trending movies and upcoming releases
+- Movies Page : Browse all available movies (requires authentication)
+- Movie Details : View comprehensive information about a specific movie
+- About Page : Information about the MovieVerse platform
+- Login/Register : User authentication pages
+
+## Authentication
+
+The application uses local storage for authentication. To access protected routes like the Movies page, users need to register and log in.
+
+## UI/UX
+
+MovieVerse features a modern, responsive design with:
+
+- Gradient backgrounds
+- Card-based movie displays
+- Smooth transitions and hover effects
+- Pagination for movie browsing
+- Loading indicators for asynchronous operations
+
+![App Screenshot](./public/Images/Screenshot.png)
