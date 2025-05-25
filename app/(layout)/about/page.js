@@ -13,8 +13,7 @@ function About() {
           enjoy content in a seamless and enjoyable way.
         </p>
         <p className="text-lg text-gray-700">
-          Feel free to explore and reach out to us for more information. We're
-          here to help!
+          {`Feel free to explore and reach out to us for more information. We're here to help!`}
         </p>
       </div>
     </div>
